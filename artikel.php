@@ -14,7 +14,7 @@ session_start();
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
     <!-- MAIN CSS -->
-    <link rel="stylesheet" href="css/tentang.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/artikel.css?v=<?php echo time(); ?>">
 </head>
 
 <body class="hero-section">
@@ -39,10 +39,10 @@ session_start();
                                     <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                         <a class="nav-link" href="program.php">Program</a>
                                     </li>
-                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
                                         <a class="nav-link" href="artikel.php">Artikel</a>
                                     </li>
-                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                         <a class="nav-link" href="tentang.php">Tentang</a>
                                     </li>
                                     <?php
@@ -81,10 +81,95 @@ session_start();
                 <div class="section jumbotron-section-tentang">
                     <div class="container">
                         <div class="text-center text-md-center">
-                            <h1 class="font-weight-600">Tentang Ruang Berproses</h1>
-                            <div class="index-1">
-                                <img src="img/hero/hero-tentang.png" alt="Hero Image" width="50%">
-                                <!-- <a href="http://www.freepik.com">Designed by Freepik</a> -->
+                            <h1 class="font-weight-600">Artikel Ruang Berproses</h1>
+                            <img class="lebar" src="img/hero/hero-artikel.png" alt="Hero Image">
+                            <!-- <a href="http://www.freepik.com">Designed by Freepik</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section program">
+            <div class="container">
+                <h2 class="text-center font-weight-600">Lihat Artikel</h2>
+                <div class="row mt-5">
+                    <div class="card-deck  text-lg-left text-center">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="img/psytalk52.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Judul Artikel</h5>
+                                <div class="item">
+                                    <p>Berikut merupakan gambaran kecil artikel yang dipaparkan. Berikut merupakan gambaran kecil artikel yang dipaparkan. Berikut merupakan gambaran kecil artikel yang dipaparkan. Berikut merupakan gambaran kecil artikel yang dipaparkan.</p>
+
+                                </div>
+                                <div id="wrapper">
+                                    <a href="index.php" class="btn btn-primary">Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="img/psytalk52.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Judul Artikel</h5>
+                                <div class="item">
+                                    <p>Berikut merupakan gambaran kecil artikel yang dipaparkan. Berikut merupakan gambaran kecil artikel yang dipaparkan. Berikut merupakan gambaran kecil artikel yang dipaparkan. Berikut merupakan gambaran kecil artikel yang dipaparkan.</p>
+                                </div>
+                                <div id="wrapper">
+                                    <a href="index.php" class="btn btn-primary">Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="img/psytalk52.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Judul Artikel</h5>
+                                <div class="item">
+                                    <p>Berikut merupakan gambaran kecil artikel yang dipaparkan. Berikut merupakan gambaran kecil artikel yang dipaparkan. Berikut merupakan gambaran kecil artikel yang dipaparkan. Berikut merupakan gambaran kecil artikel yang dipaparkan.</p>
+                                </div>
+                                <div id="wrapper">
+                                    <a href="index.php" class="btn btn-primary">Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="card-deck">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="img/psytalk52.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Judul Artikel</h5>
+                                <div class="item">
+                                    <p>Berikut merupakan gambaran kecil artikel yang dipaparkan. Berikut merupakan gambaran kecil artikel yang dipaparkan. Berikut merupakan gambaran kecil artikel yang dipaparkan. Berikut merupakan gambaran kecil artikel yang dipaparkan.</p>
+                                </div>
+                                <div id="wrapper">
+                                    <a href="index.php" class="btn btn-primary">Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="img/psytalk52.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Judul Artikel</h5>
+                                <div class="item">
+                                    <p>Berikut merupakan gambaran kecil artikel yang dipaparkan. Berikut merupakan gambaran kecil artikel yang dipaparkan. Berikut merupakan gambaran kecil artikel yang dipaparkan. Berikut merupakan gambaran kecil artikel yang dipaparkan.</p>
+                                </div>
+                                <div id="wrapper">
+                                    <a href="index.php" class="btn btn-primary">Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="img/psytalk52.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Judul Artikel</h5>
+                                <div class="item">
+                                    <p>Berikut merupakan gambaran kecil artikel yang dipaparkan. Berikut merupakan gambaran kecil artikel yang dipaparkan. Berikut merupakan gambaran kecil artikel yang dipaparkan. Berikut merupakan gambaran kecil artikel yang dipaparkan.</p>
+                                </div>
+                                <div id="wrapper">
+                                    <a href="index.php" class="btn btn-primary">Selengkapnya</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -92,82 +177,8 @@ session_start();
             </div>
         </div>
 
-        <div class="section pengenalan">
-            <div class="container">
-                <div class="card-deck text-lg-left text-center">
-                    <div class="card card-kenal">
-                        <div class="card-body ">
-                            <div class="row">
-                                <div class="col-lg-7 col-md-6 col-sm-6 col-12 my-auto text-md-left text-center">
-                                    <h3 class="card-title">Selamat datang di Ruang Berproses</h3>
-                                    <p>Mempelajari psikologi tidak serta merta membuat seseorang paham 100% bagaimana cara merawat dan menjaga kesehatan mental, apalagi bagi yang tidak sama sekali menerima edukasi terkait kesehatan mental. Padahal, kebutuhan akan edukasi tersebut sangatlah penting. Bagaimana seseorang dalam proses kehidupannya memiliki wadah dalam melihat dirinya lebih positif dan mampu menjadi manusia yang berdampak bagi orang disekelilingnya adalah harapan kami dalam mendirikan Ruang untuk siapapun Berproses dengan kondisi kesehatan mentalnya.</p>
-                                </div>
-                                <div class="col-lg-5 col-md-6 col-sm-6 col-12 my-auto text-md-right text-center">
-                                    <img src="img/yo.jpeg" alt="Hero Image" width="20%">
-                                    <h5>Yohana Sondang Activa Hutabarat, M.Psi</h5>
-                                    <h6>Founder Ruang Berproses</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="section visi-misi">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                        <img src="img/tentang/tentang-visimisi.jpg" alt="Hero Image" width="90%">
-                        <!-- <a href="http://www.freepik.com">Designed by stories / Freepik</a> -->
-                    </div>
-                    <div class="col-lg-5 col-md-6 col-sm-6 col-12 my-auto text-md-left text-center">
-                        <ul class="check">
-                            <li>
-                                <h4>Visi</h4>
-                                <p> Setiap orang menyadari bahwa Kesehatan mental adalah penting dan setiap orang memiliki ruang untuk berproses dengan dirinya.</p>
-                            </li>
-                            <li>
-                                <h4>Misi</h4>
-                                <p>Mengadvokasi mengenai pentingnya akan Kesehatan mental dan mendampingi setiap orang yang ingin berproses dengan kondisi kesehatan mentalnya selaras dengan perubahan yang terus terjadi didalam proses kehidupan.</p>
-                            </li>
-                            <li>
-                                <h4>Tagline</h4>
-                                <p>"Selalu ada ruang untuk kamu berproses menuju versi terbaikmu."</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="section profil">
-            <div class="container">
-                <h2 class="text-center font-weight-600">Profil Ruang Berproses</h2>
-
-            </div>
-        </div>
-
-        <div class="section associte">
-            <div class="container">
-                <h2 class="text-center font-weight-600">Associate Psychologist</h2>
-
-            </div>
-        </div>
-
-        <div class="section team">
-            <div class="container">
-                <h2 class="text-center font-weight-600">Tim Kami</h2>
-
-            </div>
-        </div>
-
-        <div class="section balik-layar">
-            <div class="container">
-                <h2 class="text-center font-weight-600">Di Balik Layar</h2>
-
-            </div>
-        </div>
 
 
 

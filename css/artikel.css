@@ -204,8 +204,8 @@ p {
 }
 h1 {
   font-size: 48px;
-  margin-top: 20px;
-  margin-bottom:  50px;
+  margin-top: 50px;
+  margin-bottom:  30px;
   line-height: 1.2;
   font-weight: 500;
   color: #212112;
@@ -283,18 +283,10 @@ body.hero-section p {
   text-align: center;
 }
 
-.index-1 img {
-  z-index: 1;
+.lebar {
+  width: 55%;
 }
 
-h5 {
-  margin-top: 10px;
-  margin-right: 40px;
-}
-
-h6 {
-  margin-right: 40px;
-}
 
 
 
@@ -345,6 +337,7 @@ h6 {
 
   .item {
     display: flex;
+    text-align: justify;
   }
 
   .item img {
@@ -463,6 +456,8 @@ footer {
   h1 {
     font-size: 32px;
     font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 40px;
   }
 
   h2 {
@@ -520,3 +515,5 @@ footer {
   }
 
 }
+
+
